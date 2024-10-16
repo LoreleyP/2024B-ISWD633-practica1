@@ -52,7 +52,7 @@ El comando docker inspect se utiliza para obtener información detallada sobre u
 ```
 docker inspect <nombre imagen>
 ```
-![Imagen](img/dockerinspect.PNG)
+![Imagen](img/dockerinspect.png)
 
 ```
 docker inspect <nombre imagen>:<tag>
