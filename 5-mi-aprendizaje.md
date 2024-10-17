@@ -5,6 +5,7 @@ Comparando sus conocimientos antes de hacer la práctica con sus conocimientos d
 * Aprendí cómo crear imágenes dentro de Docker, además de cómo eliminarlas y listarlas, lo cual es esencial para gestionar los entornos de desarrollo. Este conocimiento es una base sólida para optimizar la administración de aplicaciones en contenedores.
 * Ahora sé cómo crear y manejar contenedores utilizando comandos básicos de Docker. Esto me ha permitido interactuar con aplicaciones dentro de entornos aislados, comprendiendo mejor el flujo de trabajo que implica trabajar con contenedores desde su creación hasta su ejecución y gestión.
 * Aprendí que el puerto interno del contenedor debe coincidir con el puerto en el que la aplicación dentro del contenedor está escuchando. Por ejemplo, en un contenedor de nginx, la aplicación escucha por defecto en el puerto 80, por lo que es importante mapear ese puerto correctamente al host. Usar -p 3000:80 o -p 80:80 asegura que el servicio sea accesible desde fuera del contenedor.
+* Entendí que Docker facilita las instalaciones y configuraciones al permitir que las aplicaciones se ejecuten en contenedores con todas sus dependencias incluidas, eliminando la necesidad de gestionar dependencias manualmente. Esto asegura que las aplicaciones funcionen de manera consistente en cualquier entorno, simplificando el proceso de desarrollo y despliegue.
 
 Si solucionó un problema presentado al realizar la práctica también se debe documentar.
-* No tuve ningún problema
+* No tuve ningún problema, todas las tareas por realizar fueron llenadas en sus respectivos .md
