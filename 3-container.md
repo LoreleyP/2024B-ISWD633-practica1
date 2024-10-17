@@ -9,10 +9,16 @@ docker create --name <nombre contenedor> <nombre imagen>:<tag>
 Crear el contenedor  **srv-web** usando la imagen nginx version alpine
 # COMPLETAR
 
+![Imagen](img/srvweb.png)
+
+
+
 Si creas un contenedor en Docker sin asignarle un nombre específico utilizando la opción --name, Docker asignará automáticamente un nombre aleatorio al contenedor. Este nombre suele consistir en una combinación de palabras y números.  
 
 Crear el contenedor usando la imagen hello-world
 # COMPLETAR
+![Imagen](img/hello.png)
+
 
 ### Listar los contenedores ejecutándose o no
 
@@ -27,6 +33,8 @@ docker start <nombre contenedor o identificador>
 ```
 Iniciar el contenedor srv-web 
 # COMPLETAR
+![Imagen](img/startsrv.png)
+
 
 ### Listar los contenedores ejecutándose
 ```
@@ -49,9 +57,13 @@ docker run --name <nombre contenedor> <nombre imagen>:<tag>
 
 Crear y ejecutar inmediatamente el contenedor **srv-web2** usando la imagen nginx:alpine
 # COMPLETAR
+![Imagen](img/image.png)
+
 
 **¿Qué sucede luego de la ejecución del comando?**
+No se permite más comandos en el terminal. 
 # COMPLETAR  
+![Imagen](img/segundocomando.png)
 
 Cuando ejecutas un contenedor en primer plano sin la opción -d (modo detach), el contenedor captura la entrada estándar (stdin) del terminal, lo que significa que el terminal queda "atrapado" y no puedes introducir más comandos hasta que detengas el contenedor.
 
@@ -64,6 +76,7 @@ docker run -d --name <nombre contenedor> <nombre imagen>:tag
 ```
 Crear y ejecutar inmediatamente el contenedor **srv-web3** en modo detach usando la imagen nginx:alpine
 # COMPLETAR
+![Imagen](img/3comando.png)
 
 ### Para eliminar un contenedor
 
@@ -72,9 +85,11 @@ docker rm <nombre contenedor>
 ```
 Eliminar el contenedor que se creó a partir de la imagen hello-world 
 # COMPLETAR
+![Imagen](img/deletesvr4.png)
 
 Verificar que el contenedor que se eliminó
 # COMPLETAR
+![Imagen](img/deletechello.png)
 
 ### Para eliminar un contenedor que esté ejecutándose
 
@@ -83,11 +98,14 @@ docker rm -f <nombre contenedor>
 ```
 Eliminar el contenedor **srv-web3** 
 # COMPLETAR
+![Imagen](img/deltesvr3.png)
 
 Verificar que el contenedor que se eliminó
 # COMPLETAR
+![Imagen](img/ejecutando.png)
 
 ### Para inspecionar un contenedor 
 
 Inspeccionar el contenedor **srv-web** 
 # COMPLETAR
+![Imagen](img/inspect-svrweb.png)
