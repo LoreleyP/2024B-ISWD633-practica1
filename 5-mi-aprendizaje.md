@@ -1,3 +1,10 @@
 # COMPLETAR  
 Comparando sus conocimientos antes de hacer la práctica con sus conocimientos después de hacer la tarea, explicar los principales aprendizajes logrados para beneficio de su formación profesional.  
+
+* Al ser la primera vez que trabajo con Docker, he aprendido desde cero qué son las imágenes y los contenedores. Ahora entiendo que una imagen es una plantilla inmutable que sirve para crear contenedores, y que estos últimos son instancias ejecutables de las imágenes, permitiendo ejecutar aplicaciones de forma aislada.
+* Aprendí cómo crear imágenes dentro de Docker, además de cómo eliminarlas y listarlas, lo cual es esencial para gestionar los entornos de desarrollo. Este conocimiento es una base sólida para optimizar la administración de aplicaciones en contenedores.
+* Ahora sé cómo crear y manejar contenedores utilizando comandos básicos de Docker. Esto me ha permitido interactuar con aplicaciones dentro de entornos aislados, comprendiendo mejor el flujo de trabajo que implica trabajar con contenedores desde su creación hasta su ejecución y gestión.
+* Aprendí que el puerto interno del contenedor debe coincidir con el puerto en el que la aplicación dentro del contenedor está escuchando. Por ejemplo, en un contenedor de nginx, la aplicación escucha por defecto en el puerto 80, por lo que es importante mapear ese puerto correctamente al host. Usar -p 3000:80 o -p 80:80 asegura que el servicio sea accesible desde fuera del contenedor.
+
 Si solucionó un problema presentado al realizar la práctica también se debe documentar.
+* No tuve ningún problema
